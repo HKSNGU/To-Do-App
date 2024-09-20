@@ -1,7 +1,17 @@
+import AppName from "./components/AppName";
+import Input from "./components/Input";
+import Item from "./components/Item";
+
 function App() {
   return (
     <>
-      <button class="btn btn-warning ms-2">Hello</button>
+      <div className="mainContainer">
+        <AppName />
+        <Input />
+        <Item />
+        <Item />
+        <Item />
+      </div>
     </>
   );
 }

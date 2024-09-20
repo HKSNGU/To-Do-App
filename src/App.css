@@ -1,0 +1,18 @@
+.mainContainer {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+#appName {
+  padding: 50px;
+}
+
+.containers {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.column {
+  margin-right: 10px;
+}
