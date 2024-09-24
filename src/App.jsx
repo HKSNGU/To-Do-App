@@ -8,9 +8,9 @@ function App() {
       <div className="mainContainer">
         <AppName />
         <Input />
-        <Item />
-        <Item />
-        <Item />
+        <Item task="get up" date="24/09/2024" />
+        <Item task="get fresh" date="24/09/2024" />
+        <Item task="get skills" date="24/09/2024" />
       </div>
     </>
   );

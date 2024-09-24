@@ -1,7 +1,4 @@
-let task = "Do it";
-let date = "20/09/2024";
-
-function Item() {
+function Item({ task, date }) {
   return (
     <>
       <div className="row containers">
