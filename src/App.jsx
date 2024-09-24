@@ -1,6 +1,21 @@
 import AppName from "./components/AppName";
 import Input from "./components/Input";
-import Item from "./components/Item";
+import ToDo from "./components/ToDo.jsx";
+
+const todoData = [
+  {
+    task: "get up",
+    date: "24/09/2024",
+  },
+  {
+    task: "get fresh",
+    date: "24/09/2024",
+  },
+  {
+    task: "get skilled",
+    date: "24/09/2024",
+  },
+];
 
 function App() {
   return (
@@ -8,9 +23,7 @@ function App() {
       <div className="mainContainer">
         <AppName />
         <Input />
-        <Item task="get up" date="24/09/2024" />
-        <Item task="get fresh" date="24/09/2024" />
-        <Item task="get skills" date="24/09/2024" />
+        <ToDo todoData={todoData} />
       </div>
     </>
   );
